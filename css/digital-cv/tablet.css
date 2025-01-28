@@ -1,0 +1,103 @@
+@media screen and (max-width: 992px) {
+  /* GRID SETUP */
+  .cv {
+    grid-auto-flow: column;
+    grid-template-rows: 5000fr 1fr 1fr;
+    grid-template-columns: 100%;
+  }
+
+  .grid {
+    border-bottom: 25px solid blue;
+  }
+
+  .group-1 {
+    grid-auto-flow: column;
+    grid-template-rows: 3fr 2fr;
+  }
+
+  .group-2 {
+    grid-auto-flow: column;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .group-2, .group-3 {
+    border-left: none;
+  }
+
+  /* GRID 1 */
+  .grid-1 ul {
+    margin-right: 25px;
+  }
+
+  .grid-1 li {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 100%;
+  }
+
+  /* GRID 2 */
+  .grid-2 .scopes {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    column-gap: 55px;
+  }
+
+  /* GRID 3 */
+  .grid-3 ul {
+    margin-right: 25px;
+    padding-bottom: 0;
+  }
+
+  .grid-3 li {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 100%;
+  }
+
+  /* GRID 4 */
+  .grid-4 ul {
+    margin-right: 25px;
+  }
+
+  .grid-4 li {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 100%;
+  }
+
+  .grid-4 .question-mark {
+    margin-top: 0;
+  }
+
+  /* GRID 5 */
+  .grid-5 ul {
+    margin-right: 25px;
+  }
+
+  .grid-5 li {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+  }
+
+  .grid-5 .project {
+    margin-top: 20px;
+    padding-top: 7.5px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+  }
+
+  .grid-5 .project-info {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .grid-5 .center {
+    text-align: left;
+  }
+}
